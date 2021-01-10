@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TipCalculator</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="CalculateTip">
+    <meta name="author" content="SarthakBatra">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar">
+<a href="#ww3">Contact</a>
+<a href="#head">Work</a>
+<a href="#ww">About</a>
+</nav>
+<div class="content">
+<div class="wrap">
+<h1 class="hh1" id="ww">Hey I am Sarthak</h1>
+<p>a BCA Final Year Student</p>
+</div>
+</div>
+<div class="project">
+<header id="head">This is my project</header>
+<div id="container">
+<h1 id="tipcal">Tip Calculator</h1>
+ <form>
+                    <label>
+                        How much is your bill?<br>
+                        Rs.<input type="text" id="billAmount">
+                    </label>
+                    <label>
+                        How was the service?<br>
+                        <select id="serviceQuality">
+                            <option disabled selected value="0">-- Choose an option --</option>
+                            <option value="0.5">50% - Superb</option>
+							<option value="0.3">30% - Outstanding</option>
+                            <option value="0.2">20% - Quite Good</option>
+                            <option value="0.15">15% - It was okay</option>
+                            <option value="0.1">10% - Bad</option>
+                            <option value="0.05">5% - Terrible</option>
+                        </select>
+                    </label>
+                    <label class="hii">
+                        How many people are sharing the bill?<br>
+                        <input type="text" id="totalPeople"> people
+                    </label>
+                    <button type="button" id="calculate">Calculate!</button>
+                </form>
+                
+            </div>
+            
+            <div id="totalTip">
+                <sup>Rs.</sup><span id="tip">0.00</span>
+                <small id="each">each</small>
+            </div>
+			
+</div>
+<div class="follow">
+<h1 class="hh1" id="ww3">Let's work together...</h1>
+<p style="color:black;">How do you take your coffee?</p>
+<header>Follow Me</header><br><br>
+<div class="logos">
+<div class="face">
+<a href="https://www.facebook.com/rohan.batra.75/" target="blank"><img src="img/face.png" alt="facebooklogo" class="pics"></a>
+<h3>Facebook</h3>
+</div>
+<div class="face">
+<a href="https://www.instagram.com/rohan.batra02/?hl=en" target="blank"><img src="img/insta.png" alt="Instalogo" id="change"></a>
+<h3 id="spec">Instagram</h3>
+</div>
+<div class="face">
+<a href="https://mail.google.com/mail/u/0/#inbox" target="blank"><img src="img/email.jpg" alt="Gmaillogo" class="pics"></a>
+<h3>Send me a mail</h3>
+</div>
+<div class="face">
+<a href="https://github.com/sarthakbatra02" target="blank"><img src="img/git.jpg" alt="Gitlogo" class="pics"></a>
+<h3>Github</h3>
+</div>
+</div>
+</div>
+<footer id="last"><pre>&copy;Copyright 2020- Sarthak Batra  All rights reserved</pre></footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
